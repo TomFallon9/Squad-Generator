@@ -4,10 +4,10 @@ const inquirer = require('inquirer');
 const Manager = require('./lib/manager');
 const Engineer = require('./lib/engineer');
 const Intern = require('./lib/intern');
-const managerCard = require('./cards/managerCard');
-const engineerCard = require('./cards/engineerCard');
-const internCard = require('./cards/internCard');
-const resultsPage = require('./cards/resultsPage');
+const managerCard = require('./src/managerCard');
+const engineerCard = require('./src/engineerCard');
+const internCard = require('./src/internCard');
+const resultsPage = require('./src/resultsPage');
 
 const teamArray = [];
 let teamName = "";
