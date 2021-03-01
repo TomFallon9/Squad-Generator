@@ -1,5 +1,4 @@
-function resultsPage(teamName, addCard) {
-  return `
+
      <!DOCTYPE html>
      <html lang="en">
        <head>
@@ -10,7 +9,7 @@ function resultsPage(teamName, addCard) {
          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"crossorigin="anonymous"/>
        <link rel="stylesheet" href="/assets/style.css">
          
-         <title>${teamName} Team Headquarters</title>
+         <title>Jokers Team Headquarters</title>
       
        </head>
      
@@ -18,20 +17,37 @@ function resultsPage(teamName, addCard) {
          <header>
            <nav class="navbar navbar-expand-lg navbar-light bg-custom">
              <div class="container-fluid">
-               <h1 class="mx-auto display-4">${teamName} Team Headquarters</h1>
+               <h1 class="mx-auto display-4">Jokers Team Headquarters</h1>
              </div>
            </nav>
          </header>
          <div class="container-fluid mx-auto">
          
              <div class="row employeeRow"> 
-             ${addCard} 
+             
+   <div class="col-md-3 card employeeCard border bg-custom">
+   <div class="card-header">
+       <h3>Tom Fallon</h3>
+       <h5>Manager</h5>
+   </div>
+   <p class="card-text"> ID: 12</p>
+   <p class="card-text"><a href="mailto:">tomfaloon9@aol.com</a></p>
+   <p class="card-text">Office Number: 12</p>
+</div>
+
+     <div class="col-md-3 card employeeCard border bg-custom">
+     <div class="card-header">
+         <h3>likaw</h3>
+         <h5>Intern</h5>
+     </div>
+     <p class="card-text"> ID: 111 </p>
+     <p class="card-text"><a href="mailto:">likaw@aol.com</a></p>
+     <p class="card-text">woo st</p>
+   </div>
+  
              </div>
              </div>
              <script src="app.js"></script>
              </body>
          </html>
-     `;
-}
-
-module.exports = resultsPage;
+     
