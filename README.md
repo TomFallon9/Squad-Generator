@@ -47,6 +47,8 @@ node app.js
 
 After the user finishes inputting all the team members, the [team.html](/team.html) page gets generated
 
+<p><img src="./lib/Screenshot31.png"></p>
+
 
     
 </p>
