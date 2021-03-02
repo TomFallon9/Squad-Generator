@@ -31,7 +31,7 @@ As a leader of a development team I want to generate a page with all the informa
 
 ## Installation
 
- [jest](https://jestjs.io/), for running the tests and [inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user. Install by running the following command followed by dependencies
+[jest](https://jestjs.io/), for running the tests and [inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user. Install by running the following command followed by dependencies
 ```
 npm i
 ```
